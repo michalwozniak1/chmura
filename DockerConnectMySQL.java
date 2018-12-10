@@ -47,7 +47,7 @@ public class DockerConnectMySQL {
         }     
         stmt = conn.createStatement();
         System.out.println("Inserting Data to Table");
-        sql = "INSERT INTO Persons (PersonID, LastName, FirstName, Address, City) VALUES (1, 'Kowalski', 'Jan', 'DLuga','Lublin'), (2, 'Nowak', 'Edyta', 'Jasna','Warszawa'), (3, 'Kozak', 'Mariusz', 'Debowa','Gdansk')";
+        sql = "INSERT INTO Persons (PersonID, LastName, FirstName, Address, City) VALUES (1, 'Wozniak', 'Michal', 'Okopowa','Lublin'), (2, 'Kowal', 'Stanislaw', 'Wiejska','Poznan'), (3, 'Powalka', 'Kacper', 'Krzywa','Katowice')";
         stmt.executeUpdate(sql);   
         stmt = null;
      
